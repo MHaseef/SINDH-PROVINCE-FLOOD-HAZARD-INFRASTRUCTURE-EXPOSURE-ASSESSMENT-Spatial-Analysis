@@ -163,23 +163,6 @@ A critical requirement of spatial data analysis is selecting an appropriate Coor
 
 ---
 
-## 📁 Repository Structure & Deliverables
-
-```
-SDA Lab 02/
-├── Sindh_Flood_Analysis.gpkg          # Primary OGC GeoPackage datastore (12 reprojected layers)
-├── module1_data_pipeline.py           # Module 1: Automated vector acquisition & standardization
-├── module2_attribute_metrics.py       # Module 2: Polygon area & attribute metric calculations
-├── module3_proximity_analysis.py      # Module 3: Multi-ring hazard buffering & road overlays
-├── module4_distance_matrix.py         # Module 4: KD-Tree distance matrix & isolation metrics
-├── GIS402_Lab1_Metrics_Summary.csv    # Aggregated Tehsil summary table (Area, Health, Inundated Roads)
-├── MODULE_1_AND_2_DOCUMENTATION.md    # Detailed technical documentation for Modules 1 & 2
-├── MODULE_3_AND_4_DOCUMENTATION.md    # Detailed technical documentation for Modules 3 & 4
-├── LAB_INSTRUCTIONS.md                # Practical lab manual & technical requirements
-├── SDA Lab 1.pdf                      # Course lab manual reference document
-└── README.md                          # Project landing page & documentation
-```
-
 ### Layer Inventory inside `Sindh_Flood_Analysis.gpkg`
 
 | Layer Name | Geometry | Features | Projection | Description / Key Attributes |
